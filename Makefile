@@ -19,3 +19,6 @@ test:
 clean: 
 	rm -f sample/$(SAMPLE_BINARY_NAME)
 	rm -f sample/$(SAMPLE_BINARY_NAME).zip
+
+tidy:
+	go mod tidy -compat=1.17
