@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/aws/aws-lambda-go/events"
-	fiberadaptor "github.com/awslabs/aws-lambda-go-api-proxy/fiber"
 	"github.com/gofiber/fiber/v2"
+	fiberadaptor "github.com/mondora/aws-lambda-go-api-proxy/fiber"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
