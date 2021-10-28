@@ -112,3 +112,9 @@ func (r *ProxyResponseWriter) GetProxyResponse() (events.APIGatewayProxyResponse
 		IsBase64Encoded:   isBase64,
 	}, nil
 }
+
+// Flush implements the http.Flusher interface to allow an HTTP handler to flush
+//// buffered data to the client.
+//// See [http.Flusher](https://golang.org/pkg/net/http/#Flusher)
+func (r *ProxyResponseWriter) Flush() {
+}

@@ -2,6 +2,8 @@ module github.com/mondora/aws-lambda-go-api-proxy
 
 go 1.17
 
+// replace github.com/mondora/aws-lambda-go-api-proxy => github.com/mondora/aws-lambda-go-api-proxy v0.11.1-0.20211028090500-0a9ed82f628a
+
 require (
 	github.com/aws/aws-lambda-go v1.27.0
 	github.com/gin-gonic/gin v1.7.4
